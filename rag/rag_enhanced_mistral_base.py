@@ -150,7 +150,7 @@ Examples:
 
     # With plots and custom model
     python rag_enhanced_mistral.py \\
-        --base-model mistralai/Mistral-7B-Instruct-v0.2 \\
+        --base-model mistralai/Mistral-7B-v0.1.1 \\
         --knowledge-base evacuation_kb.json \\
         --test-data tampa_test.jsonl \\
         --output-dir ./results \\
