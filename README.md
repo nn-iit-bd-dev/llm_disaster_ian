@@ -65,13 +65,16 @@ Outputs include per-POI error analysis, top-10 best/worst cases, and visualizati
 
 ## 📂 Repository Structure
 ```
-.
-├── data/                  # Processed data files (train/test splits, JSONL, parquet)
-├── scripts/               # Forecasting scripts for ARIMA, LSTM, LLMs
-├── figures/               # Visualizations (forecast plots, model diagrams)
-├── results/               # Evaluation outputs (CSV/plots per city/POI)
-├── notebooks/             # Jupyter notebooks for exploratory analysis
+## Project Structure
+
+├── arima_models/          # Scripts and outputs for ARIMA-based forecasting
+├── dl/                    # Deep learning models (RNN, LSTM, GRU)
+├── llms/                  # Large Language Model baselines
+├── prophet_model/         # Prophet forecasting scripts and results
+├── rag/                   # Retrieval-Augmented Generation (RAG) forecasting
+├── tuned_llm/             # Fine-tuned LLM implementations and experiments
 └── README.md              # Project documentation
+
 ```
 
 ---
